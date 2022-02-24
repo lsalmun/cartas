@@ -1,7 +1,7 @@
-var diamante = <img src= "./diamante.png" alt = "diamante"/>
-var corazon = <img src= "./corazon.png" alt = "corazon"/>
-var trebol = <img src= "./trebol.png" alt = "trebol"/>
-var pica = <img src= "./pica.png" alt = "pica"/>
+var diamante = "♦"
+var corazon = "♥"
+var trebol = "♣"
+var pica = "♠"
 
   function numPal () {
 
@@ -45,7 +45,7 @@ function Palo (){
 
     return(
         <>
-<div className='palo'>
+<div >
 
 {paloFinal()}
 

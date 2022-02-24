@@ -7,13 +7,19 @@ function App() {
   return (
     <div className="App">
     
-      
+    <div className='palo'>
+
+    <Palo/>
+    </div>
+
+
        <Numero/>
 
-  
+  <div className='paloAbajo'>    
      <Palo/>
     
-       
+  </div>
+
      
     </div>
   );
